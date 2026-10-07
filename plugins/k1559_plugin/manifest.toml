@@ -1,0 +1,9 @@
+name = "k1559_plugin"
+version = "0.1.0"
+main = "plugin.py"
+author = "k1559"
+description = "NcatBot 模板插件 — 发送 hello 回复 hi (QQ)"
+entry_class = "K1559Plugin"
+pip_dependencies = []
+
+[dependencies]

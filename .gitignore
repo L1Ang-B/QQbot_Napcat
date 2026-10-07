@@ -1,0 +1,28 @@
+# 忽略配置文件
+config.yaml
+bot.json
+
+# 忽略敏感数据和日志
+logs/
+data/
+*.log
+game_cache.json
+
+# 忽略 Python 虚拟环境和缓存
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 忽略系统文件和编辑器配置
+.DS_Store
+.idea/
+.vscode/
+# 忽略 Trae 的参考文档目录
+.trae/
+
+# 忽略压缩包
+*.zip
+
+# 忽略 NapCat 相关的本地文件
+napcat/

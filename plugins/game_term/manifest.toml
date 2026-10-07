@@ -1,0 +1,9 @@
+name = "game_term"
+version = "0.1.0"
+main = "plugin.py"
+author = "k1559"
+description = "游戏名词自动解析 — 群聊中检测游戏术语并回复通俗解释（本地字典 + AI 回退）"
+entry_class = "GameTermPlugin"
+pip_dependencies = []
+
+[dependencies]

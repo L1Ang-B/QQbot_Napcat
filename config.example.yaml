@@ -1,0 +1,25 @@
+bot_uin: '你的机器人QQ号'
+root: '你的管理员QQ号'
+debug: false
+adapters:
+- type: napcat
+  platform: qq
+  enabled: true
+  config:
+    ws_uri: ws://localhost:3001
+    ws_token: '你的WS Token'
+    webui_uri: http://localhost:6099
+    webui_token: '你的WebUI Token'
+    enable_webui: true
+- type: ai
+  platform: ai
+  enabled: true
+  config:
+    api_key: "你的智谱API Key"
+    base_url: "https://open.bigmodel.cn/api/paas/v4/"
+    completion_model: "zai/glm-4.7-flash"
+plugin:
+  plugins_dir: plugins
+  load_plugin: true
+  plugin_whitelist: []
+  plugin_blacklist: []
